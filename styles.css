@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  background-image: url('montains.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 400px;
+  font-family: Garamond, sans-serif;
+}
+main{
+  background-color: rgba(37, 33, 33, 0.664);
+  padding: 40px;
+  margin-top: 30px;
+  margin-right: 400px;
+}
+p{
+  color: lightblue;
+}
+h1{
+  color: whitesmoke;
+}
+h2{
+  color: whitesmoke;
+}
+h3{
+  color: whitesmoke;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.setings{
+  float: left;
+  margin-right: 40px;
+}
+.figure.imagemcorsshair img{
+  display: flex;
+  border: 5px solid lightslategray;
+}
+
+#imagemPerfil{
+  float: left;
+}
+
+figure.imagemPerfil img {  
+  border: 5px solid lightslategray;
+}
+#aboutMe{
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  margin-left: 225px;
+  
+}
+
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+}
+.coluna-33 {
+   width: 33%;
+}
+
+
+
+footer{
+    background-color: rgba(37, 33, 33, 0.664);
+    padding: 10px;
+    padding-top: 100%;
+    padding-bottom: 10px;
+    margin-right: 400px;
+    text-align: right;
+  }
